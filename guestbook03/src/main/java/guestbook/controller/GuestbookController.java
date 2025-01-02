@@ -1,8 +1,5 @@
 package guestbook.controller;
 
-import java.util.Enumeration;
-
-import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,8 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import guestbook.repository.GuestbookRepository;
 import guestbook.vo.GuestbookVo;
-import jakarta.servlet.ServletContext;
-import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
 public class GuestbookController {
