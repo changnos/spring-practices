@@ -1,6 +1,7 @@
 1. soundsystem: Automatic configuration(Annotation scanning)
 
 [src/main/java]
+
     soundsystem
        |--- CDPlayer.java
        |--- CompactDisc.java
@@ -15,12 +16,15 @@
        |--- applicationContext.xml
 
 [src/test/java]
+
     config.soundsystem
        |--- CDPlayerXmlConfigTest.java
        |--- CDPlayerJavaConfigTest.java
 
 ========================================================
 2. videosystem: Explicit configuration(Bean configuration)
+
+[src/main/java]
 
     videosystem
        |--- DVDPlayer.java
